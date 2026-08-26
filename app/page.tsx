@@ -47,11 +47,11 @@ export default function Home() {
             <p className="therapist"><strong>James Christensen LMFT</strong><br /><a href="tel:9162928920">916-292-8920</a></p>
             <div className="session-card"><strong>Your First Session is Free</strong><span>Additional sessions cost $300.</span><span>I don’t take insurance.</span><a href="https://james.clientsecure.me/request/service">Click Here to Schedule</a></div>
           </div>
-          <figure className="hero-photo"><img src="/images/james.jpg" alt="James Christensen offers Couples Therapy in Roseville, CA" /></figure>
+          <figure className="hero-photo"><img src="https://images.squarespace-cdn.com/content/v1/64fb40924ddf256063824bc3/09bdf517-a73c-4336-a988-1e9419976d62/K9.jpg?format=1000w" alt="James Christensen offers Couples Therapy in Roseville, CA" /></figure>
         </section>
 
         <section className="story content-grid">
-          <figure className="story-photo"><img src="/images/cadet.jpg" alt="James and Molly Christensen early in their marriage" /></figure>
+          <figure className="story-photo"><img src="https://images.squarespace-cdn.com/content/v1/64fb40924ddf256063824bc3/3d485189-f366-485e-b729-96252b4c45ef/K+Cadet.jpg?format=1000w" alt="James and Molly Christensen early in their marriage" /></figure>
           <div className="story-copy">
             <h2>Our Story</h2>
             <p><strong>Molly and I got married</strong> before I started pilot training in 2001. Military life was hard on our marriage, and we soon started to drift apart.</p>
@@ -75,7 +75,7 @@ export default function Home() {
             <p><strong>If you don’t live in California,</strong> I offer online relationship coaching to clients all over the world.</p>
             <p><strong>Most couples see meaningful progress</strong> after 5–10 sessions. Complex cases take longer.</p>
           </div>
-          <figure className="approach-photo"><img src="/images/tree.jpg" alt="James and Molly smiling together beneath a tree" /></figure>
+          <figure className="approach-photo"><img src="https://images.squarespace-cdn.com/content/v1/64fb40924ddf256063824bc3/ae169684-bd3a-4660-955f-094f73812158/tree+1.jpg?format=1000w" alt="James and Molly smiling together beneath a tree" /></figure>
         </section>
 
         <section className="contact-band content-grid">

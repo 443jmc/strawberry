@@ -1,8 +1,8 @@
 @import 'tailwindcss';
 
-@font-face { font-family: 'Young Serif'; src: url('/fonts/young-serif.woff2') format('woff2'); font-weight: 400; font-display: swap; }
-@font-face { font-family: 'Bitter'; src: url('/fonts/bitter-regular.woff2') format('woff2'); font-weight: 400; font-display: swap; }
-@font-face { font-family: 'Bitter'; src: url('/fonts/bitter-bold.woff2') format('woff2'); font-weight: 700; font-display: swap; }
+@font-face { font-family: 'Young Serif'; src: url('https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/4be5c172-1932-4584-9d34-b0be3850ebaa/latin.woff2') format('woff2'); font-weight: 400; font-display: swap; }
+@font-face { font-family: 'Bitter'; src: url('https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/44255219-9adc-43bf-8519-28a654d111c5/latin.woff2') format('woff2'); font-weight: 400; font-display: swap; }
+@font-face { font-family: 'Bitter'; src: url('https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/6ad379fe-3a34-4b6d-ba88-661cd4579049/latin.woff2') format('woff2'); font-weight: 700; font-display: swap; }
 
 :root { --sand: #e7d9cb; --ink: #070707; }
 * { box-sizing: border-box; }
