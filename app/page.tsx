@@ -1,15 +1,15 @@
 import ContactForm from './contact-form';
 
 const serviceLinks = [
-  ['Intensive Couples Therapy', '/intensive-couples-therapy'], ['Private Marriage Retreats', '/private-marriage-retreats'],
+  ['Intensive Couples Therapy', '/intensive-couples-therapy'], ['Private Marriage Retreats', '/private-couples-retreats'],
   ['Codependency', '/codependency'], ['Communication', '/communication'], ['Disconnection', '/disconnection'],
   ['Infidelity', '/infidelity'], ['Dead Bedroom', '/intimacy-and-desire'], ['Narcissism', '/narcissism'],
   ['Relationship Anxiety', '/relationship-anxiety'], ['Threats of Divorce', '/threats-of-divorce'],
 ];
 const resourceLinks = [
   ['Blog', '/blog'], ['FAQ', '/faq'], ['Podcast', '/podcast'], ['Videos', '/videos'], ['Contact', '/contact'],
-  ['Reading List', '/reading-list'], ['Book Summaries', '/book-summaries'], ['About Crucible Therapy', '/crucible-therapy'],
-  ['About James Christensen', '/about'], ['How Couples Therapy Works', '/how-couples-therapy-works'],
+  ['Reading List', '/read'], ['Book Summaries', '/book-summaries'], ['About Crucible Therapy', '/crucible'],
+  ['About James Christensen', '/about-james-christensen'], ['How Couples Therapy Works', '/how-couples-therapy-works'],
 ];
 const learnMore = [
   ['Communication & Conflict', '/communication', 'Every conversation turns into a battle. You’re not fighting about money or the kids—you’re fighting because something deeper is broken underneath.'],
@@ -23,7 +23,7 @@ const learnMore = [
 ];
 
 function SourceLink({ href, children }: { href: string; children: React.ReactNode }) {
-  return <a href={`https://jamesmchristensen.com${href}`}>{children}</a>;
+  return <a href={href}>{children}</a>;
 }
 
 export default function Home() {

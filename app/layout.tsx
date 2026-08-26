@@ -2,19 +2,22 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://strawberry.jamesmoroni.workers.dev'),
+  metadataBase: new URL('https://jamesmchristensen.com'),
   title: 'Couples Therapy in Roseville, CA | Roseville Couples Counseling',
-  description: 'Direct, strength-based couples therapy and marriage counseling with James Christensen, LMFT in Roseville, California.',
+  description: 'Couples therapy and marriage counseling in Roseville, CA for conflict, disconnection, infidelity, and communication problems. First session free.',
+  alternates: { canonical: '/' },
   openGraph: {
+    type: 'website',
+    url: '/',
     title: 'Couples Therapy in Roseville, CA | Roseville Couples Counseling',
-    description: 'Direct, strength-based couples therapy and marriage counseling with James Christensen, LMFT.',
-    images: [{ url: 'https://strawberry.jamesmoroni.workers.dev/og.png', width: 1200, height: 630, alt: 'Couples Therapy in Roseville, CA' }],
+    description: 'Couples therapy and marriage counseling in Roseville, CA for conflict, disconnection, infidelity, and communication problems. First session free.',
+    images: [{ url: 'https://static1.squarespace.com/static/64fb40924ddf256063824bc3/t/6977fc7504bf73679b502720/1769471093818/Screenshot+2026-01-26+at+3.44.35%E2%80%AFPM.png?format=1500w', alt: 'Couples Therapy in Roseville, CA' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Couples Therapy in Roseville, CA | Roseville Couples Counseling',
-    description: 'Direct, strength-based couples therapy and marriage counseling with James Christensen, LMFT.',
-    images: ['https://strawberry.jamesmoroni.workers.dev/og.png'],
+    description: 'Couples therapy and marriage counseling in Roseville, CA for conflict, disconnection, infidelity, and communication problems. First session free.',
+    images: ['https://static1.squarespace.com/static/64fb40924ddf256063824bc3/t/6977fc7504bf73679b502720/1769471093818/Screenshot+2026-01-26+at+3.44.35%E2%80%AFPM.png?format=1500w'],
   },
 };
 
