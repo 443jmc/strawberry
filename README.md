@@ -19,4 +19,4 @@ The Cloudflare-compatible Worker output is written to `dist/server`, with browse
 
 ## Deployment
 
-The production site is available at <https://strawberry.jamesmoroni.workers.dev/>. The source is also configured for Git-based deployment through the hosting metadata in this repository.
+The production site is available at <https://strawberry.jamesmoroni.workers.dev/>.
